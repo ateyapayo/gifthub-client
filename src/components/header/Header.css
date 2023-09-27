@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+/* Home logo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+}
+
+.logo a,
+.logo a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.dark .logo a,
+.dark .logo a:visited {
+  color: white;
+}
+
+.dark .dark .logo .header h1 {
+  margin: 0;
+}
+
+.header svg {
+  width: 28px;
+  height: 28px;
+  margin-right: 12px;
+}
+
+/* Opening message */
+
+.opening {
+  color: black;
+}
+
+.dark .opening {
+  color: white;
+}
+
+.opening span {
+  color: white;
+}
+
+.dark .opening span {
+  color: #f52f40;
+}
